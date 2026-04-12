@@ -231,16 +231,9 @@ const LandingPage = () => {
             <a className="link link-hover font-bold text-primary">Instagram</a>
             <a className="link link-hover font-bold text-primary">LinkedIn</a>
           </div>
-          <p className="mt-12 opacity-60 text-sm">
-            © 2026 TalkHub. Developed By{" "}
-            <a href="https://abidazam.com" target="_blank" rel="noreferrer" className="text-primary hover:underline font-bold">
-              Abid Azam Khan
-            </a>{" "}
-            · CEO of{" "}
-            <a href="https://unipixer.com" target="_blank" rel="noreferrer" className="text-primary hover:underline font-bold">
-              Unipixer
-            </a>
-          </p>
+           <p className="py-4 text-center text-xs md:text-sm">
+        © 2026 Gadgety. Developed By <span href="" target="_blank" className="font-medium ">Abid Azam Khan</span> · CEO of <span href="" target="_blank" className="font-medium">Unipixer</span>
+      </p>
         </aside> 
       </footer>
     </div>
