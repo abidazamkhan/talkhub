@@ -45,8 +45,8 @@ const LandingPage = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-            <Link 
-              to="/signup" 
+            <Link
+              to="/signup"
               className="btn btn-primary btn-lg rounded-full px-12 gap-3 group shadow-xl hover:shadow-primary/40 transition-all hover:scale-105 active:scale-95 text-xl h-auto py-4"
             >
               Start for Free <ArrowRight className="size-6 group-hover:translate-x-1 transition-transform" />
@@ -65,21 +65,21 @@ const LandingPage = () => {
           <div className="mt-24 relative max-w-5xl mx-auto">
             <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-[2.5rem] blur-2xl opacity-50 -z-10 animate-pulse"></div>
             <div className="rounded-[2rem] border-[12px] border-base-300/50 overflow-hidden shadow-2xl relative group bg-base-200">
-               <div className="absolute inset-x-0 top-0 h-12 bg-base-300/30 flex items-center px-6 gap-2 border-b border-white/5">
-                 <div className="w-3 h-3 rounded-full bg-error/40"></div>
-                 <div className="w-3 h-3 rounded-full bg-warning/40"></div>
-                 <div className="w-3 h-3 rounded-full bg-success/40"></div>
-                 <div className="flex-1 bg-base-100/50 rounded-lg h-6 mx-4"></div>
-               </div>
-               <div className="pt-12 px-2 pb-2">
-                 <img 
-                   src="/i.png" 
-                   alt="TalkHub App Interface" 
-                   className="w-full h-auto rounded-2xl shadow-inner transition-transform duration-700 group-hover:scale-[1.02]" 
-                 />
-               </div>
+              <div className="absolute inset-x-0 top-0 h-12 bg-base-300/30 flex items-center px-6 gap-2 border-b border-white/5">
+                <div className="w-3 h-3 rounded-full bg-error/40"></div>
+                <div className="w-3 h-3 rounded-full bg-warning/40"></div>
+                <div className="w-3 h-3 rounded-full bg-success/40"></div>
+                <div className="flex-1 bg-base-100/50 rounded-lg h-6 mx-4"></div>
+              </div>
+              <div className="pt-12 px-2 pb-2">
+                <img
+                  src="/i.png"
+                  alt="TalkHub App Interface"
+                  className="w-full h-auto rounded-2xl shadow-inner transition-transform duration-700 group-hover:scale-[1.02]"
+                />
+              </div>
             </div>
-            
+
             {/* Floating Badges */}
             <div className="absolute -top-10 -right-10 bg-base-100 p-4 rounded-2xl shadow-xl border border-base-200 animate-bounce hidden lg:block">
               <div className="flex items-center gap-3">
@@ -142,7 +142,7 @@ const LandingPage = () => {
             </div>
             <Link to="/signup" className="btn btn-outline btn-lg rounded-full px-8">View all features</Link>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
@@ -167,8 +167,8 @@ const LandingPage = () => {
                 border: "hover:border-accent/50"
               }
             ].map((feature, idx) => (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className={`card bg-base-100 border border-base-300 ${feature.border} transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 group p-4`}
               >
                 <div className="card-body">
@@ -191,7 +191,7 @@ const LandingPage = () => {
             {/* Background elements */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"></div>
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-secondary/10 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"></div>
-            
+
             <div className="relative z-10">
               <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
                 Don't just learn. <br />
@@ -223,18 +223,18 @@ const LandingPage = () => {
             <ShipWheelIcon className="size-12 text-primary" />
           </div>
           <p className="font-black text-3xl tracking-tighter">
-            TalkHub 
-          </p> 
+            TalkHub
+          </p>
           <p className="text-lg opacity-60 font-medium">Building bridges through authentic conversation.</p>
           <div className="mt-8 flex gap-6">
             <a className="link link-hover font-bold text-primary">Twitter</a>
             <a className="link link-hover font-bold text-primary">Instagram</a>
             <a className="link link-hover font-bold text-primary">LinkedIn</a>
           </div>
-           <p className="py-4 text-center text-xs md:text-sm">
-        © 2026 Gadgety. Developed By <span href="" target="_blank" className="font-medium ">Abid Azam Khan</span> · CEO of <span href="" target="_blank" className="font-medium">Unipixer</span>
-      </p>
-        </aside> 
+          <p className="py-4 text-center text-xs md:text-sm">
+            © 2026 TalkHub. Developed By <span href="" target="_blank" className="font-medium ">Abid Azam Khan</span> · CEO of <span href="" target="_blank" className="font-medium">Unipixer</span>
+          </p>
+        </aside>
       </footer>
     </div>
   );
